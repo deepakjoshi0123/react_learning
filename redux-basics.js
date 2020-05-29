@@ -24,6 +24,7 @@ const rootReducer = (state = initialState, action) => {
 
 // Store
 const store = createStore(rootReducer);
+console.log(store.getState());
 
 // Subscription
 store.subscribe(() => {
